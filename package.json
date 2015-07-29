@@ -1,0 +1,28 @@
+{
+  "name": "cakes",
+  "version": "1.0.0",
+  "description": "Cake type lister",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-watch": "webpack --progress --colors --watch --display-error-deails",
+    "dev-serve": "cd build && python -mSimpleHTTPServer"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "babel-core": "^5.8.19",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.10.5",
+    "css-loader": "^0.15.6",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^1.0.3",
+    "style-loader": "^0.12.3"
+  },
+
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+
+}
